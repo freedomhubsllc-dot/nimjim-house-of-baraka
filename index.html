@@ -399,8 +399,8 @@
       border-top: 1px solid rgba(255,255,255,0.1);
     }
 
-    /* Responsive Mobile Styles */
-    @media (max-width: 768px) {
+   /* Responsive Mobile Styles */
+@media (max-width: 768px) {
   .nav-container {
     flex-direction: column;
     align-items: center;
@@ -422,9 +422,12 @@
     font-size: 0.75rem;
     padding: 0.4rem 0.8rem;
   }
+
+  .grid-2, .grid-3 {
+    grid-template-columns: 1fr !important;
+  }
 }
-      }
-    }
+</style>
   </style>
 </head>
 <body>
