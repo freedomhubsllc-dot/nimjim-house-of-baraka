@@ -401,17 +401,28 @@
 
     /* Responsive Mobile Styles */
     @media (max-width: 768px) {
-      .nav-links {
-        display: none; /* Can be expanded with a toggle menu */
-      }
-      .grid-2, .grid-3 {
-        grid-template-columns: 1fr;
-      }
-      .hero h1 {
-        font-size: 2rem;
-      }
-      .contact-container {
-        padding: 1.5rem;
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    gap: 0.8rem;
+  }
+
+  .logo {
+    text-align: center;
+    font-size: 1.1rem !important;
+  }
+
+  .logo span {
+    font-size: 0.55rem !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  .btn-cta-nav {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
       }
     }
   </style>
